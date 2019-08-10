@@ -16,6 +16,10 @@
 
 1. 在启动后，同目录下将会生成```autofish-gui-auto.bat```文件。若您无需配置上的更改，可直接运行此文件启动钓鱼机。
 2. 如想保留原有配置文件，将```autofish-gui-auto.bat```文件改名即可。
+3. 服务器ip不可为srv解析。可通过nslookup查看获得a记录地址和端口并重新填入。  
+例：服主给出的服务器地址为```mc.example.com```，但通过cmd执行ping命令显示```Ping 请求找不到主机```，或是看得到ping后的ip却仍然无法进入服务器，则可能是使用了srv解析。  
+通过输入命令```nslookup -q=srv _minecraft._tcp.mc.example.com```发现，```port```为```10000```，```srv hostname```为```a.example.com```，则可在启动器内服务器ip栏输入```a.example.com```，端口输入```10000```。  
+若输入命令后发现```srv hostname```仍然为```mc.example.com```，那么可以```ping mc.example.com```来获取服务器的ip地址，然后填入服务器地址栏并填写端口，即可进入服务器。
 
 ### 正版用户须知
 
