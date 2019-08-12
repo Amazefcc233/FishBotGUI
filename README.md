@@ -5,6 +5,10 @@
 此为[FishBot](https://github.com/MscBaiMeow/FishBot)的GUI版本  
 采用~~巨鸡儿烂的~~易语言进行编写，仅可供Windows用户使用  
 
+## 截图 (仅供参考)
+![1]()
+![2]()
+
 ## Release 注意事项
 
 1. 每次的Release中，**大概**会有两个文件。  
