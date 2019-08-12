@@ -6,7 +6,7 @@
 采用~~巨鸡儿烂的~~易语言进行编写，仅可供Windows用户使用  
 
 ## 截图 (仅供参考)
-![1]()
+![1](https://raw.githubusercontent.com/Amazefcc233/FishBotGUI/master/images/snipaste_20190813_001417.png)
 ![2]()
 
 ## Release 注意事项
