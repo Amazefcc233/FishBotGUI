@@ -7,7 +7,7 @@
 
 ## 截图 (仅供参考)
 ![1](https://raw.githubusercontent.com/Amazefcc233/FishBotGUI/master/images/snipaste_20190813_001417.png)
-![2]()
+![2](https://raw.githubusercontent.com/Amazefcc233/FishBotGUI/master/images/snipaste_20190813_001716.png)
 
 ## Release 注意事项
 
