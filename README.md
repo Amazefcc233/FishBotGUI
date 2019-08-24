@@ -48,3 +48,4 @@ Linux用户请前往[原贴](https://github.com/MscBaiMeow/FishBot/releases)下�
 - [FishBot](https://github.com/MscBaiMeow/FishBot)
 - [Miaoscraft](https://github.com/miaoscraft/)
 - [易语言 - 未闻花名UI](https://bbs.125.la/home.php?mod=space&uid=378021)
+- [Tsuk1ko/CQ-picfinder-robot的模版](https://github.com/Tsuk1ko/CQ-picfinder-robot)
