@@ -1,38 +1,32 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: 问题汇报
+about: 出 bug 啦
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**描述这个 bug**
+rt
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**如何复现**
+复现步骤（如果能复现）
+1. 去 xxx
+2. 点击 xxx
+3. 输入 xxx
+4. 出现 bug
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**期望现象**
+如果没 bug，本来应该得到什么结果
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**截图及日志**
+- 问题相关截图
+- 日志内容
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**平台**
+ - 操作系统：例如 Windows 10 / Ubuntu 16.04 / CentOS 7 
+ - 程序版本：例如 v1.2.1
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**附加内容**
+先生，还有什么要补充的吗
