@@ -15,7 +15,7 @@ Linux用户请前往[原贴](https://github.com/MscBaiMeow/FishBot/releases)下�
 1. ~~每次的Release中，**大概**会有两个文件。  
   一个是```AutoFishGUI.exe```，另一个是```AutoFishGUI-small.exe```。  
   两者的区别就在于，前者已包含了主文件，后者仅包含GUI启动部分，您必须手动下载[FishBot](https://github.com/MscBaiMeow/FishBot/releases)中的版本，并将其和GUI启动器放置在同一目录下，才可启动钓鱼机。~~  
-  请注意在v1.2以后版本中，未优化版本可能不再受到支持。我们建议您使用```AutoFishGUI-reload.exe```。此版本的功能较多，并可能在以后将完全代替未优化版本。
+  在v1.3及以后版本中，reload版本已完全代替未优化版本。以往的版本将不再给予支持。
 2. 本GUI的Releases版本将跟随[FishBot](https://github.com/MscBaiMeow/FishBot/)版本。
 
 ## 启动注意事项
