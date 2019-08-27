@@ -1,6 +1,6 @@
 # FishBotGUI
   
-源码 https://github.com/MscBaiMeow/FishBot  
+源自 https://github.com/MscBaiMeow/FishBot  
   
 此为[FishBot](https://github.com/MscBaiMeow/FishBot)的GUI版本  
 采用~~巨鸡儿烂的~~易语言进行编写，仅可供Windows用户使用  
