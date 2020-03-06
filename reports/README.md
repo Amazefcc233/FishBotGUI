@@ -15,9 +15,10 @@
 >如果您不放心，请勿下载本GUI版本。原始版本比这个报错低了去了。  
 
 ## VirSCAN.org 查毒
->v1.4以下版本不会主动提供查毒报告，也不会再提供支持。如确有需要，请开issues请求。
+>v1.4以下版本不会主动提供查毒报告，也不会再提供支持。如确有需要，请开issue请求。
 
- - [v1.4.2.01](http://r.virscan.org/language/zh-cn/report/78e1d48ffa9dac680cbc17d9241506c4)
+ - [v1.4.3.1](https://r.virscan.org/language/zh-cn/report/a1b458d075d24432c82d28b0ed1ac373)
+ - [v1.4.2.01](https://r.virscan.org/language/zh-cn/report/78e1d48ffa9dac680cbc17d9241506c4)
  - [v1.4.2、v1.4.2.1、v1.4.3](https://r.virscan.org/language/zh-cn/report/8432d7e1948798db4a343792e8da3aaa)
   （此版本是以压缩包形式上传的。压缩包原文件位于 https://github.com/Amazefcc233/FishBotGUI/blob/master/reports/v1.4.x/AutoFishGUI-1.4.x.zip 。您可下载后自行检验。）
  - [v1.4及v1.4-2.0](https://r.virscan.org/language/zh-cn/report/8d1ebeaa90c5aff5a316b3a9fd53e767)
