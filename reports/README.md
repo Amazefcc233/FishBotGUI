@@ -17,6 +17,7 @@
 ## VirSCAN.org 查毒
 >v1.4以下版本不会主动提供查毒报告，也不会再提供支持。如确有需要，请开issue请求。
 
+ - [v1.4.4](http://r.virscan.org/language/zh-cn/report/9df0a51b61937d38d8e5390e7495ac42)
  - [v1.4.3.1](https://r.virscan.org/language/zh-cn/report/a1b458d075d24432c82d28b0ed1ac373)
  - [v1.4.2.01](https://r.virscan.org/language/zh-cn/report/78e1d48ffa9dac680cbc17d9241506c4)
  - [v1.4.2、v1.4.2.1、v1.4.3](https://r.virscan.org/language/zh-cn/report/8432d7e1948798db4a343792e8da3aaa)
