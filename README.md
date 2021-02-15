@@ -1,10 +1,14 @@
 # FishBotGUI
   
-源自 https://github.com/MscBaiMeow/FishBot  
+源自 https://github.com/MscBaiMeow/FishBot  (v1.6.0以下) 及 https://github.com/MscBaiMeow/FishBotReload  
   
-此为[FishBot](https://github.com/MscBaiMeow/FishBot)的GUI版本  
+此为[FishBot](https://github.com/MscBaiMeow/FishBot)及[FishBotReload](https://github.com/MscBaiMeow/FishBotReload)的GUI版本  
 采用~~巨鸡儿烂的~~易语言进行编写，仅可供Windows用户使用  
-Linux用户请前往[原贴](https://github.com/MscBaiMeow/FishBot/releases)下载```AutoFish```  
+Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/releases)或[(新版本)](https://github.com/MscBaiMeow/FishBotReload/releases)下载```AutoFish```  
+
+## 更新延期提示
+
+因为本人源代码随着本人的电脑一起灰飞烟灭及时间因素等等原因，此GUI项目将暂缓更新，还请谅解
 
 ## 版本对应（仅最后）
  - mc1.14.4 - GUI v1.4.2.01
