@@ -10,9 +10,14 @@ Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/re
 
 因为本人源代码随着本人的电脑一起灰飞烟灭及时间因素等等原因，此GUI项目将暂缓更新，还请谅解
 
-## 版本对应（仅最后）
- - mc1.14.4 - GUI v1.4.2.01
- - mc1.15.2 - GUI v1.4.4
+## 版本对应说明
+
+| Minecraft版本 | 最后对应GUI版本 | *预计*可用GUI版本 [^1] | 备注 |
+|:------:|:---------:|:---------:|:---------:|
+| 1.14.4 | ```1.4.2.01``` | 1.1 - 1.4.2.01 ||
+| 1.15.2 | ```1.4.4``` | 1.4.3 - 1.4.4 ||
+
+[^1]：此处为预计可用GUI版本，请以实际情况为准
 
 ## 截图 (仅供参考)
 ![1](https://raw.githubusercontent.com/Amazefcc233/FishBotGUI/master/images/snipaste_20190813_001417.png)
@@ -20,17 +25,21 @@ Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/re
 
 ## Release 注意事项
 
-1. ~~每次的Release中，**大概**会有两个文件。  
-  一个是```AutoFishGUI.exe```，另一个是```AutoFishGUI-small.exe```。  
-  两者的区别就在于，前者已包含了主文件，后者仅包含GUI启动部分，您必须手动下载[FishBot](https://github.com/MscBaiMeow/FishBot/releases)中的版本，并将其和GUI启动器放置在同一目录下，才可启动钓鱼机。~~  
-  在v1.3及以后版本中，reload版本已完全代替未优化版本。以往的版本将不再给予支持。
-2. ~~本GUI的Releases版本将跟随[FishBot](https://github.com/MscBaiMeow/FishBot/)版本。~~
-3. 自v1.6.0以后（即从FishBot新版本开始），版本号将不再与FishBot版本同步。新GUI版本号格式将统一为```2.x.x.x```，从2.0.0.0开始。```x.x.x```将大致遵守语义化版本规则。
-   - 若FishBotGUI存在巨大变动（通常跟随FishBot进行变动），则通常情况下将递增一次主版本号。
-   - 若FishBot主体文件未进行较大变动，则无论FishBot版本号变更为多少，通常情况下GUI版本将递增一次次版本号。
-   - 若上一版GUI版本存在问题，而FishBot未出错，则递增修订号。
+1. 自**v1.6.0以后**（即从FishBotReload新版本开始），版本号将不再与FishBot版本同步。  
+   新GUI版本号格式将统一为```2.x.x.x```， 起始位置为```2.1.1.0```。其中：  
+   - ```2```为区别于旧版本的标识
+   - ```x.x.x```三项分别为```主版本号```、```次版本号```、```修订号```。  
+     相较于[语义化版本 2.0.0 规范](https://semver.org/lang/zh-CN/)，GUI版本仅包含了版本号的部分概念，其他内容因实际情况可能无法正常遵守语义化版本规范。  
+     GUI版本的版本号递增规则大致如下：
+     - 若FishBotGUI存在巨大变动（通常跟随FishBot进行变动），则通常情况下将递增一次主版本号。
+     - 若FishBot主体文件未进行较大变动，则无论FishBot版本号变更为多少，通常情况下GUI版本将递增一次次版本号。
+     - 若上一版GUI版本存在问题，而FishBot未出错（或未更新），则递增一次修订号。
+     - 当次版本号递增后，修订号将被重置，从0开始重新计算。
+     - 当主版本号递增后，次版本号和修订号将被重置，次版本号从1开始重新计算，修订号从0开始重新计算。
    
-   在内置的程序版本信息中，将统一为2.0.0.0，不作更改。
+   在内置的程序版本信息中，将统一为2.0.0.0。除非FishBot再次重开仓库，否则以后不再进行更改。
+2. 自**v1.6.0及以后**（即从最后一版FishBot旧版本开始），一次Release将会发布两个程序。  
+   其中```AutoFishGUI.exe```为包含对应FishBot主体文件的GUI版本，```AutoFishGUI-only.exe```仅有GUI启动界面，实际启动文件需从原帖[(旧版本)](https://github.com/MscBaiMeow/FishBot/releases)或[(新版本)](https://github.com/MscBaiMeow/FishBotReload/releases)下载，并改名为```AutoFish.exe```，将其与```AutoFishGUI-only.exe```放置在同一文件夹下。
 
 ## 启动注意事项
 
