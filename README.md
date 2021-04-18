@@ -1,14 +1,15 @@
 # FishBotGUI
   
-源自 https://github.com/MscBaiMeow/FishBot  (v1.6.0以下) 及 https://github.com/MscBaiMeow/FishBotReload  
+源自 https://github.com/MscBaiMeow/FishBot  (v1.6.0以下) 及 https://github.com/MscBaiMeow/FishBot2  
   
-此为[FishBot](https://github.com/MscBaiMeow/FishBot)及[FishBotReload](https://github.com/MscBaiMeow/FishBotReload)的GUI版本  
+此为[FishBot](https://github.com/MscBaiMeow/FishBot)及[FishBotReload](https://github.com/MscBaiMeow/FishBot2)的GUI版本  
 采用~~巨鸡儿烂的~~易语言进行编写，仅可供Windows用户使用  
-Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/releases)或[(新版本)](https://github.com/MscBaiMeow/FishBotReload/releases)下载```AutoFish```  
+Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/releases)或[(新版本)](https://github.com/MscBaiMeow/FishBot2/releases)下载`AutoFish`  
 
 ## 更新延期提示
 
-因为本人源代码随着本人的电脑一起灰飞烟灭及时间因素等等原因，此GUI项目将暂缓更新，还请谅解
+因为本人源代码随着本人的电脑一起灰飞烟灭及时间因素等等原因，此GUI项目将暂缓更新，还请谅解  
+如果版本在`2021.7`还没有进行过更新，即代表此仓库弃坑。
 
 ## 版本对应说明
 
@@ -25,11 +26,11 @@ Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/re
 
 ## Release 注意事项
 
-1. 自**v1.6.0以后**（即从FishBotReload新版本开始），版本号将不再与FishBot版本同步。  
+1. 自**v1.6.0以后**（即从FishBot2新版本开始），版本号将不再与FishBot版本同步。  
    新GUI版本号格式将统一为```2.x.x.x```， 起始位置为```2.1.1.0```。其中：  
    - ```2```为区别于旧版本的标识
    - ```x.x.x```三项分别为```主版本号```、```次版本号```、```修订号```。  
-     相较于[语义化版本 2.0.0 规范](https://semver.org/lang/zh-CN/)，GUI版本仅包含了版本号的部分概念，其他内容因实际情况可能无法正常遵守语义化版本规范。  
+     ~~(简直就是抄了但又没完全抄[语义化版本 2.0.0 规范](https://semver.org/lang/zh-CN/))~~  
      GUI版本的版本号递增规则大致如下：
      - 若FishBotGUI存在巨大变动（通常跟随FishBot进行变动），则通常情况下将递增一次主版本号。
      - 若FishBot主体文件未进行较大变动，则无论FishBot版本号变更为多少，通常情况下GUI版本将递增一次次版本号。
@@ -37,7 +38,7 @@ Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/re
      - 当次版本号递增后，修订号将被重置，从0开始重新计算。
      - 当主版本号递增后，次版本号和修订号将被重置，次版本号从1开始重新计算，修订号从0开始重新计算。
    
-   在内置的程序版本信息中，将统一为2.0.0.0。除非FishBot再次重开仓库，否则以后不再进行更改。
+   在内置的程序版本信息中，将统一为`2.0.0.0`。除非FishBot再次重开仓库，否则以后不再进行更改。
 2. 自**v1.6.0及以后**（即从最后一版FishBot旧版本开始），一次Release将会发布两个程序。  
    其中```AutoFishGUI.exe```为包含对应FishBot主体文件的GUI版本，```AutoFishGUI-only.exe```仅有GUI启动界面，实际启动文件需从原帖[(旧版本)](https://github.com/MscBaiMeow/FishBot/releases)或[(新版本)](https://github.com/MscBaiMeow/FishBotReload/releases)下载，并改名为```AutoFish.exe```，将其与```AutoFishGUI-only.exe```放置在同一文件夹下。
 
@@ -60,10 +61,14 @@ Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/re
 
 1. **从v1.4起，密码将不再被保存在本地，取代而之的是astk。安全性的确有所提高，但请您注意，使用astk登入仍有可能导致您的账户被他人利用。因此在任何时候，您都不应该泄露自己的astk和密码信息。我们已对此进行过警告，因随意传播密码/astk而导致账号被盗等行为，FishBot及FishBotGUI不承担任何责任。**
 2. 请在认证服务器一栏中填写你服务器的Yggdrasil API 认证服务器地址。
-3. 统一通行证用户在认证服务器一栏中填写```https://auth2.nide8.com:233/($服务器ID)/```。```($服务器ID)```可为注册URL的32位ID。
+3. 统一通行证用户在认证服务器一栏中填写```https://auth2.nide8.com:233/($服务器ID)/```。```($服务器ID)```为注册URL的32位ID。
   若注册地址为```https://login2.nide8.com:233/1234567890abcdef1234567890abcdef/loginreg```，则服务器id为```1234567890abcdef1234567890abcdef```。
 4. 事实上并没有打算考虑统一通行证。能用便是缘分。用不了也不打算兼容。
 5. 多用户可在钓鱼机登入后选择一个用户并进入服务器。
+
+### 中国版用户须知
+
+1. 根据推断，无论是租赁服还是网络服，中国版都有其自己开发的认证渠道，且相关核心也有经过相关工作组二次开发。因此除非有他人破解或自行公开相关源码，否则通常情况下无法以非官方方式登录。
 
 ## 鸣谢
 
