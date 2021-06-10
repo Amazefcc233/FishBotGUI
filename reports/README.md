@@ -15,6 +15,8 @@
 >如果您不放心，请勿下载本GUI版本。原始版本比这个报错低了去了。  
 
 ## VirSCAN.org 查毒
+>v1.4.5-v1.6.0因VirSCAN.org无法上传文件的原因暂时无法提供查毒报告。
+
 >v1.4以下版本不会主动提供查毒报告，也不会再提供支持。如确有需要，请开issue请求。
 
  - [v1.4.4](http://r.virscan.org/language/zh-cn/report/9df0a51b61937d38d8e5390e7495ac42)
