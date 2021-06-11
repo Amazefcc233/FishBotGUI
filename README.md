@@ -39,7 +39,7 @@ Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/re
      - 当主版本号递增后，次版本号和修订号将被重置，次版本号从1开始重新计算，修订号从0开始重新计算。
    
    在内置的程序版本信息中，将统一为`2.0.0.0`。除非FishBot再次重开仓库，否则以后不再进行更改。
-2. 自**v1.6.0及以后**（即从最后一版FishBot旧版本开始），一次Release将会发布两个程序。  
+2. 自**v1.6.0以后**（即从最后一版FishBot旧版本后开始），一次Release将会发布两个程序。  
    其中```AutoFishGUI.exe```为包含对应FishBot主体文件的GUI版本，```AutoFishGUI-only.exe```仅有GUI启动界面，实际启动文件需从原帖[(旧版本)](https://github.com/MscBaiMeow/FishBot/releases)或[(新版本)](https://github.com/MscBaiMeow/FishBotReload/releases)下载，并改名为```AutoFish.exe```，将其与```AutoFishGUI-only.exe```放置在同一文件夹下。
 
 ## 启动注意事项
