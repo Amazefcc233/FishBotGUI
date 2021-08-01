@@ -6,9 +6,10 @@
 采用~~巨鸡儿烂的~~易语言进行编写，仅可供Windows用户使用  
 Linux用户请前往原贴[(旧版本)](https://github.com/MscBaiMeow/FishBot/releases)或[(新版本)](https://github.com/MscBaiMeow/FishBot2/releases)下载`AutoFish`  
 
-## 更新延期提示
+## ~~更新延期提示~~存档提示
 
-此项目在不久的将来可能会重构。因此更新将可能延期。
+~~此项目在不久的将来可能会重构。因此更新将可能延期。~~  
+新版FishBot2已有可视化ui计划。因此本项目将作存档处理。
 
 ## 版本对应说明
 
